@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Waterfox
+Comment=Browse the web with a privacy-focused Firefox-based browser.
+Exec=waterfox %U
+Icon=waterfox
+Terminal=false
+Categories=Network;WebBrowser;
