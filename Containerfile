@@ -2,7 +2,9 @@ FROM ubuntu:26.04 AS source
 
 ADD --checksum=sha256:f67403104687a301e27fb3a1efed7bfebf6add997ad0f3dea465a5797cbea220 https://cdn.waterfox.com/waterfox/releases/6.6.17/Linux_x86_64/waterfox-6.6.17.tar.bz2 /tmp/app.tar.bz2
 
-RUN mkdir -p /out && \
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends bzip2 && \
+    mkdir -p /out && \
     tar -xjf /tmp/app.tar.bz2 -C /out
 
 FROM ghcr.io/containerpak/gtk3:main
