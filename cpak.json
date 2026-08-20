@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "Waterfox",
   "description": "Browse the web with a privacy-focused Firefox-based browser.",
-  "version": "6.6.17",
+  "version": "6.7.0",
   "image": "ghcr.io/containerpak/waterfox:main",
   "binaries": [
     "/usr/bin/waterfox"
