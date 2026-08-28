@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:c751a45242b2b4a84267815819e79d1ebd2eb85f1d5ad75528e54b96f8267851 https://cdn.waterfox.com/waterfox/releases/6.7.0/Linux_x86_64/waterfox-6.7.0.tar.bz2 /tmp/app.tar.bz2
+ADD --checksum=sha256:7892826dc1df4d4dcb1bff5b526d20bb31f42e90dcd9d4aea2884e595941c1de https://cdn.waterfox.com/waterfox/releases/6.7.1.1/Linux_x86_64/waterfox-6.7.1.1.tar.bz2 /tmp/app.tar.bz2
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends bzip2 && \
