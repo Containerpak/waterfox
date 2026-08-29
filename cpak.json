@@ -4,7 +4,7 @@
   "name": "Waterfox",
   "description": "Browse the web with a privacy-focused Firefox-based browser.",
   "version": "6.7.1.1",
-  "image": "ghcr.io/containerpak/waterfox@sha256:42b3a634a423caf597c4223573121dcc5713759de5866197220557bd457025a1",
+  "image": "ghcr.io/containerpak/waterfox@sha256:b0810715fb7d35f2f4684ef381792deebf0ffd9fbe254fd48c8b3907e98b26a8",
   "binaries": [
     "/usr/bin/waterfox"
   ],
